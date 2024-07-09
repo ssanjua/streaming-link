@@ -23,7 +23,13 @@ module.exports = {
 				purple: '#B43EFE',
 				dark: '#222222',
 				light: '#E1E1E1'
-      }
+      },
+      boxShadow: {
+        'custom-white': '3px 3px 0px 0px #c8c8c8db',
+        'custom-dark': '3px 3px 0px 0px #0F0F0F', 
+        'custom-yellow': '3px 3px 0px 0px #fecd23',
+        'custom-pink': '3px 3px 0px 0px #E54980',
+      },
     },
   },
   plugins: [],

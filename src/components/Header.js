@@ -9,7 +9,7 @@ export default async function Header() {
 
   return (
     <div>
-      <header className="bg-white py-4">
+      <header className="bg-white p-4">
         <div className='max-w-4xl flex justify-between mx-auto'>
           <div className="flex items-center gap-4">
             <Link className='font-bold' href={'/'}>StreamLink</Link>

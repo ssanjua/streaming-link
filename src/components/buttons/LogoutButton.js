@@ -1,6 +1,6 @@
 'use client'
 //import { faRightFromBracket } from '@fortawesome/free-solid-svg-icons';
-import { signOut } from "next-auth/react";
+import { signOut } from "next-auth/react"
 
 export default function LogoutButton() {
   return (
