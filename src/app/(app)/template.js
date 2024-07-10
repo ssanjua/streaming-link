@@ -7,6 +7,7 @@ import { authOptions } from "../api/auth/[...nextauth]/route"
 import { redirect } from "next/navigation"
 import Image from "next/image"
 import AppSidebar from "@/components/layouts/AppSidebar"
+import { Toaster } from "react-hot-toast"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -24,6 +25,7 @@ export default async function AppTemplate({ children, ...rest }) {
   return (
     <html lang="en">
       <body className={inter.className}>
+        <Toaster />
         <Header />
         <main className="flex min-h-screen">
           <aside className="bg-green w-48 p-4">

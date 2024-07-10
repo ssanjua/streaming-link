@@ -6,3 +6,29 @@
 body {
   @apply bg-light;
 }
+
+
+input[type="text"], textarea {
+  @apply bg-slate-100 rounded-md w-full block py-2 px-2;
+}
+
+label.input-label {
+  @apply uppercase text-green font-semibold text-sm;
+}
+
+.radio-togglers {
+  @apply p-4 inline-flex bg-light;
+}
+
+.radio-togglers span {
+  @apply bg-white items-center p-2 px-4;
+}
+
+.radio-togglers input[type="radio"] {
+  @apply hidden;
+}
+
+.radio-togglers input[type="radio"]:checked + span {
+  @apply bg-green text-white font-bold;
+}
+

@@ -14,7 +14,7 @@ export default function AppSidebar() {
                 className={'bg-white shadow-custom-dark ' + (path === '/account' ? 'shadow-custom-pink font-bold' : '' )}
                 href={'/account'}
                 >
-                  Configuración
+                  Mi página
               </Link>
               <Link 
                 className={'bg-white shadow-custom-dark ' + (path === '/analytics' ? 'shadow-custom-pink font-bold' : '' )}
